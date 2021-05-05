@@ -1,0 +1,98 @@
+/* Body and Nav */
+body{
+    background-image: url("../images/stsci-h-p1917b-q-5198x4801.jpeg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+  font-family: 'Krona One', sans-serif;
+  height:70px;
+}
+
+.navbar a:hover {
+  background-color:red;
+  color:black;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+}
+
+#bodyContainer{
+    margin: auto;
+    width: 80%;
+    border: 3px solid red;
+    padding: 10px;
+    background-color:white;
+    margin-bottom:20px;
+    opacity: 0.9;
+    border-radius: 25px;
+}
+
+/* Banner Image Section */
+#bannerImage{
+    width:100%;
+    height:500px;
+    margin: auto;
+    width: 50%;
+}
+
+h1{
+    color:white;
+    font-family: 'Krona One', sans-serif;
+}
+
+/* Bird of Prey Animation */
+#birdOfPrey{
+    margin-left:25%;
+    height:300px;
+    width:300px;
+    animation-name: fly-in;
+    animation-duration: 4s; 
+    animation-iteration-count: 1; 
+    animation-direction: alternate; 
+    animation-timing-function: ease; 
+    animation-fill-mode: none; 
+    animation-delay: 0s;
+    animation-play-state: running;
+}
+/* Button/Input */
+#TranslateButton{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#input{
+  margin: auto;
+width: 50%;
+/* Footer */
+}
+
+#footerText{
+    color:white;
+    background-color:black;
+    font-family: 'Krona One', sans-serif;
+  }
+
+/*Animation*/
+@keyframes fly-in {
+    0% {
+      transform: translate(-1000px, 0px);
+    }
+    100% {
+    }
+  }

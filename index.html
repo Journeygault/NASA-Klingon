@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nasa to Klingon Translation</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+        <script async defer type="text/javascript"  src="scripts/API.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <a  href="#">Home</a>
+            <a href="#">Star Trek Trivia</a>
+            <img id="logo" src="images/kisspng-klingon-star-trek-united-federation-of-planets-log-60-5acc18cf1fc2d0.0016883215233251351301.png" alt="An image of the flag of the Klingon empire">
+            <a href="#">Episode Guide</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div id ="bannerImage">
+            <h1> Steal The Ferderations Technology ! </h1>
+            <img id="birdOfPrey" src="images/PikPng.com_prey-png_5005188.png" alt=" A picture of a klingon bird of prey">
+        </div>
+        <div id="bodyContainer">
+            <h2 id="title"></h2>
+            <span id="description">We can steal technology from the miserable humans and translate it into our own native Klingon using the Klingon Translate API! Through trial and error we can find ID numbers from the NASA techport API and enter them into the field bellow!</span>
+            <p>
+            <br>
+            <span id="Output"></span>
+            <br>
+            <span id="benefits"></span>
+            </p>
+            <div id="input">
+                <label for="ReportNumber">Enter a Nasa techport Id Number from 0 – 20000. Not all values will yield results. 17791-17798 seems to give best results</label>
+                <br>
+                <input type="text" name="text" id="ReportNumber" placeholder="Enter ID Here">
+                <br>
+                <button id="nasaButton" class="btn btn-secondary">Get Technological Specifications</button>
+                <br>
+                <button id="translateButton" class="btn btn-danger">Translate Into Our Native Klingon!</button>
+            </div>
+        </div>
+        <footer>
+            <p id="footerText">Copywright Journey gault 2021 	&#169;</p>
+        </footer>
+    </body>
+</html>
+    
